@@ -24,7 +24,7 @@ The model training phase revolved around fine-tuning a `distilroberta-base` mode
 
 ## Model Compression and ONNX Inference
 
-The resultant trained model had a substantial memory footprint. To address this concern, the ONNX quantization technique was employed to compress the model's memory usage to a modest 80MB. The process is provided in the notebooks folder.
+The resultant trained model had a substantial memory footprint. To address this concern, the ONNX quantization technique was employed to compress the model's memory usage to a modest 78.8 MB. The process is provided in the notebooks folder.
 
 ## Model Performance and Evaluation:
 * Accuracy: around 99%
